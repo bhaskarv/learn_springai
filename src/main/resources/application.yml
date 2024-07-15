@@ -1,0 +1,10 @@
+spring:
+  ai:
+    ollama:
+      base-url: ${AI_OLLAMA_BASE_URL:http://localhost:11434}
+      chat:
+        options:
+          model: llama3
+      embedding:
+        options:
+          model: nomic-embed-text
